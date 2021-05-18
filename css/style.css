@@ -1,0 +1,81 @@
+header{
+  background:#15cbff;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#00c0ff 3px solid;
+  border-top:##ffffff 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#0042ff;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+footer{
+  padding:10px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#15cbff;
+  text-align: center;
+  border-bottom:#00c0ff 3px solid;
+  border-top:#00c0ff 3px solid;
+
+}
+.dark{
+  padding:15px;
+  background:#15cbff;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.containers{
+  width:50%;
+  margin:5px;
+  overflow:hidden;
+}
+.containerr {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 75%; /* 4:3 Aspect Ratio */
+}
+
+.icon-alone {
+  display: inline-block; /* Fix for clickability issue in WebKit */
+}
+.screen-reader-text { /* Reusable, toolbox kind of class */
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
